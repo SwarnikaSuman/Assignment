@@ -1,0 +1,33 @@
+#title{
+  font-size: 100px;
+  color: #735;
+}
+#topic{
+  font-size: 75px;
+  text-align: center;
+  color: #999;
+}
+p{
+  font-size: 20px;
+  color: #930;
+}
+body{
+  background-image: url('smart living.jpg');
+  background-size: cover;
+  background-position: center;
+}
+p:hover{
+  color: #800;
+}
+#topic:hover{
+  color: #909;
+}
+#title:hover{
+  color: #935;
+}
+h2{
+  color: #536;
+}
+h2:hover{
+  color: #539;
+}
