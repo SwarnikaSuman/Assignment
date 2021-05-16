@@ -19,7 +19,7 @@ p{
   color: #600;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:992px) {
   p{
     margin-right: 2%;
     margin-left: 2%;
