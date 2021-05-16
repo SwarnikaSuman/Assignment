@@ -9,6 +9,18 @@
   color: #999;
   transition-duration: 0.3s;
 }
+
+@media only screen and (max-width:768px) {
+  p{
+    margin-right: 2%;
+    margin-left: 2%;
+    transition-duration: 0.3s;
+    background-color: #ffffffcc;
+    font-size: 20px;
+    color: #600;
+  }
+}
+
 p{
   margin-right: 20%;
   margin-left: 20%;
