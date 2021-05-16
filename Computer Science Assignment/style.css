@@ -1,33 +1,67 @@
 #title{
   font-size: 100px;
   color: #735;
+  transition-duration: 0.3s;
 }
 #topic{
   font-size: 75px;
   text-align: center;
   color: #999;
+  transition-duration: 0.3s;
 }
 p{
+  margin-right: 20%;
+  margin-left: 20%;
+  transition-duration: 0.3s;
+  background-color: #ffffffcc;
   font-size: 20px;
-  color: #930;
+  color: #600;
 }
+
 body{
-  background-image: url('smart living.jpg');
-  background-size: cover;
-  background-position: center;
+  margin-right: 10%;
+  margin-left: 10%;
+  transition-duration: 0.3s;
 }
+
+img{
+  margin: 50px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+transition-duration: 0.3s;
+}
+img:hover{
+  transform: scale(1.05);
+  transition-duration: 0.3s;
+}
+
 p:hover{
-  color: #800;
+  transform: scale(1.02);
+  color: #a00;
+  transition-duration: 0.3s;
 }
+
+p:last-child{
+  margin-bottom: 100px ;
+}
+
 #topic:hover{
+  transform: scale(1.05);
   color: #909;
+  transition-duration: 0.3s;
 }
 #title:hover{
   color: #935;
+  transform: scale(1.05);
+  transition-duration: 0.3s;
 }
 h2{
   color: #536;
+  transition-duration: 0.3s;
 }
 h2:hover{
+  transform: scale(1.01);
   color: #539;
+  transition-duration: 0.3s;
 }
